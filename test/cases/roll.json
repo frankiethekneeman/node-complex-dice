@@ -1,0 +1,42 @@
+{
+    "success": {
+        "adding a scalar": {
+            "def": "3d6+2"
+            , "groups": ["3d6", "+2"]
+            , "max": 20
+            , "min": 5
+            , "roll": 14
+        }
+        , "adding a die": {
+            "def": "3d6+2d8"
+            , "groups": ["3d6", "+2d8"]
+            , "max": 34
+            , "min": 5
+            , "roll": 22
+        }
+        , "subtracting a scalar": {
+            "def": "3d6-2"
+            , "groups": ["3d6", "-2"]
+            , "max": 16
+            , "min": 1
+            , "roll": 10
+        }
+        , "subtracting a die": {
+            "def": "3d6-2d8"
+            , "groups": ["3d6", "-2d8"]
+            , "max": 16
+            , "min": -13
+            , "roll": 2
+        }
+        , "long string": {
+            "def": "3d6-2d8+7+17d7+2-1d4"
+            , "groups": ["3d6", "-2d8", "+7", "+17d7", "+2-1d4"]
+            , "max": 146
+            , "min": 12
+            , "roll": 80
+        }
+    }
+    , "erroneous": {
+        "trailing characters": "367+17-4d8."
+    }
+}
