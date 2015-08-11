@@ -63,6 +63,87 @@
             , "min": -8
             , "max": -2
         }
+        , "Multiplication": {
+            "def": "2d4x2"
+            , "multiplier": 2
+            , "dice": 2
+            , "drop": 0
+            , "size": 4
+            , "min": 4
+            , "max": 16
+        }
+        , "Scalar Multiplication": {
+            "def": "2x2"
+            , "multiplier": 2
+            , "dice": 2
+            , "drop": 0
+            , "size": 1
+            , "min": 4
+            , "max": 4
+        }
+        , "Subtraction and Multiplication": {
+            "def": "2-1x2"
+            , "multiplier": 2
+            , "dice": 2
+            , "drop": 1
+            , "size": 1
+            , "min": 2
+            , "max": 2
+        }
+        , "Division": {
+            "def": "2d4/2"
+            , "multiplier": 0.5
+            , "dice": 2
+            , "drop": 0
+            , "size": 4
+            , "min": 1
+            , "max": 4
+        }
+        , "Scalar Division": {
+            "def": "4/2"
+            , "multiplier": 0.5
+            , "dice": 4
+            , "drop": 0
+            , "size": 1
+            , "min": 2
+            , "max": 2
+        }
+        , "Subtraction and Division": {
+            "def": "2-1/2"
+            , "multiplier": 0.5
+            , "dice": 2
+            , "drop": 1
+            , "size": 1
+            , "min": 0
+            , "max": 0
+        }
+        , "Fractions": {
+            "def": "2d4x4/3"
+            , "multiplier": 1.33333333333333333333333333333333333
+            , "dice": 2
+            , "drop": 0
+            , "size": 4
+            , "min": 2
+            , "max": 10
+        }
+        , "Scalar Fractions": {
+            "def": "2x4/3"
+            , "multiplier": 1.33333333333333333333333333333333333
+            , "dice": 2
+            , "drop": 0
+            , "size": 1
+            , "min": 2
+            , "max": 2
+        }
+        , "Subtraction Fractions": {
+            "def": "2-1x4/3"
+            , "multiplier": 1.33333333333333333333333333333333333
+            , "dice": 2
+            , "drop": 1
+            , "size": 1
+            , "min": 1
+            , "max": 1
+        }
     }
     , "erroneous": {
         "words": "Reepacheep"

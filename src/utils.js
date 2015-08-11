@@ -17,7 +17,7 @@ var utils = {
         var toReturn = 0;
         for (var i = 0; i < dice; i++)
             toReturn += utils.die(size);
-        return toReturn * multiplier;
+        return Math.floor(toReturn * multiplier);
     }
 
     , rollComplex: function(dice, drop, size, multiplier) {
@@ -32,7 +32,7 @@ var utils = {
         for (var i = 0; i < dice - drop; i++) {
             toReturn += rolls[i];
         }
-        return toReturn * multiplier;
+        return Math.floor(toReturn * multiplier);
     }
 }
 
